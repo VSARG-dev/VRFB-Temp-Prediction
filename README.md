@@ -25,5 +25,9 @@ We then created an LSTM model having 100 hidden layers which takes an input of s
 The model was then trained on the training dataset for 50 epochs and the loss per epoch was plotted. 
 We then used the model for prediction over the length of the entire dataset and the predicted values were stored in an array before being rescaled to the original size. The array was added later as an extra column within the dataset. <br />
 <br />
+The final MSE, RMSE and R2 errors were calculated and tabulated. We then plotted the algorithm performance and the parameter performance graphs. <br />
+<br />
 The code for this can be found in [LSTM Implementation for Temp Prediction.ipynb](https://github.com/VSARG-dev/VRFB-Temp-Prediction/blob/main/LSTM%20Implementation%20for%20Temp%20Prediction.ipynb)
 
+## Future Work
+In total, the entire team working on the project tested out 12 different algorithm on the given dataset. The algorithm that performs the best for prediction will then be implemented for optimizing the VRFB stack temperature w.r.t the varying flow rate.
