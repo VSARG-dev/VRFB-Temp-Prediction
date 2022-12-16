@@ -6,8 +6,11 @@ Redox Flow Batteries have risen in popularity in recent years as a large-scale e
 
 ## Polynomial Regression
 We created polynomial regression models for degrees 0-9 and implemented it on the dataset. We used gradient descent to update the weights at each iteration. <br />
+<br />
 The MSE error was calculated every 5000 iterations and the model was run for a total of 50000 iterations. <br />
+<br />
 The final MAE, RMSE and R2 errors were calculated and tabulated for each of the polynomial functions of degrees 0-9. <br />
+<br />
 The code for this can be found in [Poly_regression for Temp Prediction.ipynb](https://github.com/VSARG-dev/VRFB-Temp-Prediction/blob/main/Poly_regression%20for%20Temp%20Prediction.ipynb)
 
 ## LSTM
